@@ -1,0 +1,49 @@
+body {
+  font-family: Monospace;
+  background: #ffeeed;
+  margin: 20px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+input, button {
+  padding: 7px 10px;
+  font-size: 18px;
+  outline: none;
+  font-family: Monospace;
+}
+
+button {
+  cursor: pointer;
+  background: #ff776e;
+  color: #fff;
+  border: none;
+  margin-left: 10px;
+  padding: 7px 20px;
+  border-radius: 7px;
+}
+
+p{
+  font-size: 18px;
+}
+
+.task {
+  width: 50%;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin: 15px 0 ;
+  display: block;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #000;
+}
+.task > p {display: inline-block}
+
+.task > button {
+  font-size: 15px;
+  padding: 5px 10px;
+}
